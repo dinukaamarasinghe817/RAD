@@ -14,12 +14,17 @@
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="style.css">
     <style>
-         :root {
-            --hue-color: 250;
+        :root {
+            --hue-color: 195;
         }
-        
+
         .home__blob-img {
             width: 200px;
+        }
+
+        .about__img {
+            width: 210px;
+            height: 270px;
         }
     </style>
 
@@ -99,31 +104,33 @@
                     </div>
 
                     <div class="home__img">
-                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                        <mask id="mask0" mask-type="alpha">
-                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
+                        <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <mask id="mask0" mask-type="alpha">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
                                     130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
                                     97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
-                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
-                        </mask>
-                        <g mask="url(#mask0)">
-                            <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                            </mask>
+                            <g mask="url(#mask0)">
+                                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
                                     165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
                                     129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
-                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
 
-                            <image class="home__blob-img" x='0' y='0' xlink:href="img\profilesaneru.jpg"/>
-                        </g>
-                    </svg>
+                                <image class="home__blob-img" x='0' y='0' xlink:href="img\profilesaneru.jpg" />
+                            </g>
+                        </svg>
                     </div>
 
                     <div class="home__data">
                         <h1 class="home__title">Hi, I'm Saneru</h1>
-                        <h3 class="home__subtitle">Frontend developer</h3>
-                        <p class="home__description">High level experience in web design and development knowledge, producing quality work.</p>
+                        <h3 class="home__subtitle">Backend Developer</h3>
+                        <p class="home__description">High level experience in Database, PHP, Sql and development
+                            knowledge, producing quality work.</p>
                         <a href="#" class="button button--flex">
-                        contact Me<i class="uil uil-message button__icon"></i>
-                    </a>
+                            contact Me<i class="uil uil-message button__icon"></i>
+                        </a>
                     </div>
                 </div>
 
@@ -143,32 +150,33 @@
             <span class="section__subtitle">My introduction</span>
 
             <div class="about__container container grid">
-                <img src="img\aboutsaneru.jpeg" alt="" class="about__img">
+                <img src="img\aboutsaneru.jpg" alt="" class="about__img">
 
                 <div class="about__data">
-                    <p class="about__description">Web developer, with extensive knowledge and years of experience, working in web technologies and Ui / Ux design, delivering quality work.</p>
+                    <p class="about__description">Backend developer with extensive knowledge and years of
+                        experience, working in Database connectivity and API handling, delivering quality work.</p>
 
                     <div class="about__info">
                         <div>
-                            <span class="about__info-title">08+</span>
+                            <span class="about__info-title">05+</span>
                             <span class="about__info-name">Years <br> experience</span>
                         </div>
 
                         <div>
-                            <span class="about__info-title">20+</span>
+                            <span class="about__info-title">15+</span>
                             <span class="about__info-name">Completed <br> project</span>
                         </div>
 
                         <div>
-                            <span class="about__info-title">05+</span>
+                            <span class="about__info-title">02+</span>
                             <span class="about__info-name">Companies <br> worked</span>
                         </div>
                     </div>
 
                     <dib class="about__buttons">
                         <a download="" href="assets/pdf/Alexa-Cv.pdf" class="button button--flex">
-                        Download CV<i class="uil uil-download-alt button__icon"></i>
-                    </a>
+                            Download CV<i class="uil uil-download-alt button__icon"></i>
+                        </a>
                     </dib>
                 </div>
             </div>
@@ -182,7 +190,7 @@
             <div class="footer__container container grid">
                 <div>
                     <h1 class="footer__title">Saneru</h1>
-                    <span class="footer__subtitle">Frontend developer</span>
+                    <span class="footer__subtitle">Backend developer</span>
                 </div>
 
                 <ul class="footer__links">
@@ -193,7 +201,7 @@
                         <a href="#portfolio" class="footer__link">Portfolio</a>
                     </li>
                     <li>
-                        <a href="#contact" class="footer__link">Contactme</a>
+                        <a href="#contact" class="footer__link">Contact_me</a>
                     </li>
                 </ul>
 
